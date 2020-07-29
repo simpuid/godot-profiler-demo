@@ -30,7 +30,7 @@ func capture(msg:String, args:Array) -> bool:
 	if error != OK:
 		print(expression.get_error_text())
 		return true
-	var result = expression.execute([], self, true)
+	expression.execute([], self, true)
 	if expression.has_execute_failed():
 		print("remote expression execution failed")
 	return true
