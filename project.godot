@@ -16,11 +16,6 @@ _global_script_class_icons={
 [application]
 
 config/name="godot-test"
-run/main_scene="res://main.tscn"
-
-[autoload]
-
-remote_profiler="*res://addons/remote_profiler.gd"
 
 [display]
 
